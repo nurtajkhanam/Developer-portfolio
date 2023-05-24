@@ -22,7 +22,9 @@
   background-repeat: no-repeat;
   background-position: bottom right, left;
 }
-
+section {
+  margin-top: 130px;
+}
 /* Header and Navigations Styles */
 nav {
   display: flex;
@@ -75,7 +77,6 @@ main {
 .about-me {
   background: #fff8f3;
   border-radius: 10px;
-  margin-top: 130px;
   padding: 130px 150px;
   text-align: center;
 }
@@ -83,6 +84,7 @@ main {
   margin-bottom: 30px;
   font-weight: 700;
   font-size: 35px;
+  text-align: center;
 }
 .section-description {
   color: #757575;
@@ -104,4 +106,69 @@ main {
   font-weight: 700;
   font-size: 20px;
   color: #474747;
+}
+
+/* what i do styles */
+
+.skill-container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.skill-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #181818;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.skill-description {
+  color: #757575;
+}
+
+/* education & experience */
+.education-experience-title {
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 115px;
+  margin-bottom: 30px;
+}
+.education-experience{
+  display: flex;
+  gap: 24px;
+}
+.education-experience hr {
+  color: #D1D1D1;
+
+}
+.edu-details {
+  margin-bottom: 30px;
+}
+.e-title {
+  font-size: 25px;
+  line-height: 34px;
+  margin-bottom: 10px;
+}
+.e-sub-title {
+  font-weight: 600;
+font-size: 20px;
+color: #757575;
+margin-bottom: 20px;
+}
+.e-description{
+  color: #757575;
+  margin-bottom: 30px;
+
+}
+.btn {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 115px;
 }
