@@ -172,3 +172,23 @@ margin-bottom: 20px;
   margin-top: 50px;
   margin-bottom: 115px;
 }
+
+
+/* contact styles */
+.contact {
+  background: #FFF8F3;
+  display: flex;
+  gap: 115px;
+  padding: 130px 230px;
+}
+.contact input[type="text"],input[type="email"], textarea {
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+}
+.contact a {
+  text-decoration: none;
+  padding-right: 24px;
+
+}
